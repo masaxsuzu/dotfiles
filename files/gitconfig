@@ -1,6 +1,6 @@
 [user]
-    name = masa-suzu
-    email = szk11735+dev@gmail.com
+    name = masaxsuzu
+    email = masaxsuzu+github@gmail.com
 [include]
     path = .gitconfig.local
 [core]
