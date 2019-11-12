@@ -19,7 +19,6 @@
     autosetuprebase = always
 [merge]
     # from 1.7.6
-    ff = false
 	tool = vsdiffmerge
 [pull]
     # from 1.7.9
