@@ -1,13 +1,15 @@
 [user]
-    name = masaxsuzu
-    email = masaxsuzu+github@gmail.com
+	name = masaxsuzu
+	email = masaxsuzu+github@gmail.com
 [include]
     path = .gitconfig.local
 [core]
     excludesfile = ~/.gitignore
     # http://stackoverflow.com/questions/136178/git-diff-handling-long-lines
     pager = less -r
-    editor = code --wait
+	editor = code --wait
+	autocrlf = input
+	symlinks = true
 [color]
     ui = auto   
 [push]
@@ -18,6 +20,7 @@
 [merge]
     # from 1.7.6
     ff = false
+	tool = vsdiffmerge
 [pull]
     # from 1.7.9
     rebase = true
